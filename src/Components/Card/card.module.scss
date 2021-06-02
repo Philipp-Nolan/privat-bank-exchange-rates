@@ -1,0 +1,28 @@
+.container {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: ghostwhite;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  margin: 25px;
+  text-align: center;
+}
+
+.exchange {
+  position: absolute;
+  top: 0;
+  color: lightgray;
+}
+
+.load {
+  background: green;
+  > div {
+    background-color: lightgreen;
+  }
+}
